@@ -1,10 +1,188 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Emma Thulliez - Page personnelle</title>
-  </head>
-  <body>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emma Thulliez - Page Personnelle</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      text-align: justify;
+      background-color: #f9f9f9;
+      link-color: ;
+    }
+
+    header {
+      background-color: #2D4638;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #5B6E64;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    a:link {
+      color: #2D4638;
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: regular;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+      background-color: white;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #2D4638;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #eee;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Emma Thulliez</h1>
+    <p>Chargée d'Enseignement Contractuelle | AgroParisTech, Palaiseau, France
+    </br> <i class="fa-regular fa-envelope"></i> emma.thulliez@agroparistech.com
+    </br><i class="fa-brands fa-orcid"></i> <a href="https://orcid.org/0009-0000-5679-3036" target="_blank" style="color: white;">Emma Thulliez</a>
+    </p>
+  </header>
+
+  <nav>
+    <a href="#apropos">À propos</a>
+    <a href="#situation">Situation</a>
+    <a href="#publications">Publications</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="apropos">
+    <h2>À propos</h2>
+    <p>Docteure en statistiques appliquées à l'environnement, 
+    je m'intéresse particulièrement aux sujets liés à la pollution de l'air. 
+    Mes travaux de recherche se concentrent sur l'emploi des micro-capteurs 
+    pour améliorer la surveillance de la pollution en milieu urbain. 
+    D'une part, il s'agit de calibrer les micro-capteurs afin d'en obtenir des 
+    mesures de concentrations précises, et d'autre part, de les employer afin
+    d'améliorer la cartographie des polluants.</p>
+  </section>
+
+  <section id="situation">
+    <h2>Situation et Formation</h2>
+    <h3>Situation actuelle</h3>
+      <strong>Chargée d'Enseignement Contractuelle</strong> – AgroParisTech (Sept. 2025 - )</li>
+      <ul>
+        <li>Responsable de TD de Statistiques (L3, M1, M2)</li>
+        <li>Chercheuse à l'UMR <a href="https://mia-ps.inrae.fr">MIA Paris-Saclay</a>, équipe SOLsTIS</li>
+      </ul>
+    <h3>Formation</h3>
+      <strong>Doctorat de statistiques appliquées </strong> – <i>Laboratoire de Mathématiques de l'INSA Rouen Normandie</i> (2025)</li>
+        <p><a href="https://github.com/ethulliez/PhD_Thesis/blob/f5eafd34e7b4beedaf06819294cf884b2dbca23d/These_Thulliez.pdf"><i class="fa-regular fa-download"></i></a> Thèse soutenue le Jeudi 06 novembre 2026 à l'INSA Rouen Normandie.</p>
+        <p><u>Titre :</u> <a href="https://github.com/ethulliez/PhD_Thesis/blob/f5eafd34e7b4beedaf06819294cf884b2dbca23d/These_Thulliez.pdf"> Mesures de micro-capteurs en qualité de l’air : calibration statistique et
+débiaisage de sorties de modèles numériques</a></p>
+        <p><u>Direction :</u> Bruno Portier ; <u>Co-encadrement :</u> Camille Coron</p>
+        <p><u>Présentée devant le jury composé de :</u></p>
+        <ul>
+        <li> Avner Bar-Hen ; <i>Rapporteur</i></li>
+        <li> Lise Bellanger ; <i>Examinatrice</i></li>
+        <li> Camille Coron ; <i>Co-encadrante</i></li>
+        <li> Véronique Delmas ; <i>Examinatrice</i></li>
+        <li> Valérie Monbet ; <i>Présidente du jury</i></li>
+        <li> Jean-Michel Poggi ; <i>Examinateur</i></li>
+        <li> Bruno Portier ; <i>Directeur</i></li>
+        <li> Thomas Romary ; <i>Rapporteur</i> </li>
+        </ul>
+        <p><u>Mots-clés :</u> Statistiques appliquées ; Fusion de données ; Modélisation statistique ; Méthodes de calibration ; Régression Géographiquement Pondérée ; Jeux de données de pollution ; Micro-capteurs ; Dioxyde d'azote ;  Qualité de l'Air</p>
+        <p style = "font-size: 10pt; font-family: italic"><u>Résumé :</u> Cette thèse explore les enjeux et les perspectives liés à l'utilisation des micro-capteurs pour la surveillance de la qualité de l'air, 
+en mettant l'accent sur deux polluants : le dioxyde d'azote (NO2) et les particules fines (PM10). Elle s'inscrit dans l'écosystème de la qualité de l'air rouennais à travers l'exploitation et la valorisation des données collectées à l'échelle locale. La thèse est structurée autour de deux axes principaux : proposer des méthodologies de calibration des micro-capteurs en zone urbaine afin d'améliorer la fiabilité de leurs mesures, et 
+modéliser et estimer le biais des cartes de pollution issues de modèles déterministes.
+Dans une première partie, nous constituons et diffusons plusieurs jeux de données construits à partir de mesures effectuées à Rouen. Ensuite, nous proposons plusieurs méthodologies de calibration ponctuelle des capteurs, que nous évaluons à partir de ces données. Une approche de calibration globale est également proposée à travers une régression géographiquement pondérée (GWR). Nous évoquons enfin les perspectives ouvertes par l'essor des micro-capteurs mobiles dans les stratégies de calibration.
+Dans une seconde partie, nous proposons deux approches distinctes pour modéliser le biais des cartes de pollution issues de modèles déterministes, en fusionnant 
+des données hétérogènes, issues de modèles, de stations de référence et de micro-capteurs. Nous terminons par évoquer l'approche de multi-fidélité permettant d'améliorer les cartes de pollution à partir de plusieurs réseaux de mesures de qualité et de densité différentes.
+Ces différents aspects mettent en lumière la contribution des micro-capteurs aux réseaux de surveillance de la qualité de l'air, tout en explorant de 
+nouvelles approches pour en garantir un meilleur usage à l'échelle urbaine.
+</p>
+      <strong>Ingénieure Sc. Génie Mathématique</strong> – <i>INSA Rouen Normandie</i> (2022)</li>
+      <ul>
+        <li>Stage M2 : Prédiction de la qualité de céréales par zone géographique, <i>Sénalia</i>, Mars 2022 - Juillet 2022</li>
+        <li>Stage à temps partiel & Projet de fin d’études : Étude des méthodes géostatistiques et applications à la pollution au NO2 à Rouen, <i>Atmo Normandie</i>, Sept. 2021 - Fév. 2022</li>
+        <li>Stage M1 : Évaluation de la performance de prévisions spatiales par des techniques de mélange de cartes, <i>Atmo Normandie</i>, Juin. 2021 - Août. 2021</li>
+      </ul>
+  </section>
+
+  <section id="publications">
+    <h2>Publications</h2>
+    <ul>
+      <li> Jean-Michel Poggi, Bruno Portier, Emma Thulliez
+        <a href = "https://hal.science/hal-05298917v1">Geographically Weighted Regression for Air Quality Low-Cost Sensor Calibration</a>,
+        2025.
+      </li>
+      <li>Emma Thulliez, Camille Coron,
+        <a href = "https://hal.science/hal-05073512v2">Using low-cost sensors to improve NO2 concentration maps derived from physico-chemical models</a>,
+        2025.
+      </li>
+      <li> Benjamin Auder, Camille Coron, Jean-Michel Poggi, Emma Thulliez,
+        <a href = "https://hal.science/hal-04941125v2">Debiasing physico-chemical models in air quality monitoring by combining different pollutant concentration measurements</a>,
+        2025.
+      </li>
+      <li>Michel Bobbia, Jean-Michel Poggi, Bruno Portier, Emma Thulliez,
+        <a href = "http://dx.doi.org/10.1002/qre.70004">Statistical Calibration of NO2 Low‐Cost Sensors</a>,
+        <i>Quality and Reliabilty Engineering International</i>, Volume 41, no. 7 (2025): 2797–2809.
+      </li>
+      <li>Michel Bobbia, Jean-Michel Poggi, Bruno Portier, Emma Thulliez,
+        <a href = "https://doi.org/10.1016/j.dib.2025.111439">A dataset of particulate matters measurements from a network of mobile and fixed sensors and monitoring stations in Rouen (Northwestern France)</a>,
+        <i>Data in Brief</i>, Volume 59, 2025, 111439.</li>
+      <li> Emma Thulliez, Bruno Portier, Michel Bobbia, Jean-Michel Poggi,
+        <a href = "https://doi.org/10.1016/j.dib.2024.110768">Deployment of low-cost air quality sensors in Rouen: A dataset of one year of hourly concentrations of gas pollutants</a>,
+        <i>Data in Brief</i>, Volume 55, 2024, 110768.
+      </li>
+      <li>Emma Thulliez, Bruno Portier, Michel Bobbia, Jean-Michel Poggi, 
+      <a href = "https://doi.org/10.1016/j.dib.2023.109398">Air quality low-cost sensors and monitoring stations NO2 raw dataset in Rouen (France)</a>, 
+      <i>Data in Brief</i>, Volume 49, 2023, 109398.</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p> <i class="fa-regular fa-envelope"></i> emma.thulliez@agroparistech.com</p>
+    <!-- <p>Téléphone : 06 00 00 00 00</p> -->
+    <p><i class="fa-brands fa-linkedin"></i> <a href="https://fr.linkedin.com/in/emma-thulliez" target="_blank">Emma Thulliez</a></p>
+    
+  </section>
+
+  <footer>
+    &copy; 2025 Emma Thulliez. Tous droits réservés.
+  </footer>
+
+</body>
 </html>
+

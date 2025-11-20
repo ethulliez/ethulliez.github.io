@@ -47,6 +47,19 @@ section {
       border-radius: 5px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
+    
+h1 {
+      text-align: center;
+      font-size: 35px;
+      color: #2D4638;
+      text-decoration: underline;
+    }
+
+name {
+      text-align: center;
+      font-size: 40px;
+      color: #FFFFFF;
+}
 
 h2 {
       color: #2D4638;

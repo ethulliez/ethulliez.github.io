@@ -1,6 +1,6 @@
 console.log("ok")
 
-const head = `<img src="Images/ethulliez.PNG" alt="Photo de Emma Thulliez" style="float:right;width:200px;">
+const head = `<!--<img src="Images/ethulliez.PNG" alt="Photo de Emma Thulliez" style="float:right;width:200px;">-->
   </br>
   <name>Emma Thulliez</name>
   <p>Chargée d'Enseignement Contractuelle | AgroParisTech, Palaiseau, France

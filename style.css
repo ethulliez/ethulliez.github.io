@@ -17,6 +17,7 @@ header {
 
 nav {
       background-color: #5B6E64;
+      color: white;
       padding: 10px;
       text-align: center;
     }
@@ -32,6 +33,14 @@ nav a {
       margin: 0 15px;
       text-decoration: none;
       font-weight: regular;
+    }
+    
+nav a:link {
+      color: white;
+    }
+    
+nav a:visited {
+      color: white;
     }
 
 nav a:hover {

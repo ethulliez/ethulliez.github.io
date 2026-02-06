@@ -4,6 +4,7 @@ const navbar = `
     <a href="publications.html">Publications</a>
     <a href="talks.html">Talks</a>
     <a href="enseignements.html">Enseignements</a>
+    <a href="data.html">Open Data</a>
     <a href="#contact">Contact</a></div>`
   
 document.getElementsByTagName("nav")[0].innerHTML = navbar

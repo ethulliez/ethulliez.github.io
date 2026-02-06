@@ -12,15 +12,65 @@ header {
       background-color: #2D4638;
       color: white;
       padding: 20px 0;
-      text-align: center;
+      display: row-reverse;
+      margin-top: -100px;
+      height:300px;
+      text-align: right;
+      position:normal;
     }
+
+#personal_desc{
+  text-align: right;
+  margin-right: 60px;
+  margin-top: 100px;
+}
+
+personal_pic {
+  margin-left:60px;
+  margin-top:-80px;
+  z-index: 2;
+  position:absolute;
+}
+
+#name {
+      margin-right: 60px;
+      margin-top: 30px;
+      font-size: 60px;
+      color: #FFFFFF;
+      font-family:ui-rounded;
+      top: 0px;
+}
 
 nav {
       background-color: #5B6E64;
       color: white;
+      padding: 0px;
+      text-align: center;
+      position:sticky;
+      position:webkit-sticky;
+      top: 90px;
+    }
+
+#navbar {
+      background-color: #5B6E64;
+      color: white;
       padding: 10px;
       text-align: center;
-    }
+}
+
+#navname {
+      padding-right: 60px;
+      margin-right: 0px;
+      font-size: 60px;
+      color: #FFFFFF;
+      font-family:ui-rounded;      
+      position:sticky;
+      position:webkit-sticky;
+      top: 0px;
+      background-color: #2D4638;
+      text-align: right;
+      z-index: 0;
+}
     
 a:link {
       color: #2D4638;
@@ -69,12 +119,6 @@ h1 {
       color: #2D4638;
       text-decoration: underline;
     }
-
-name {
-      text-align: center;
-      font-size: 40px;
-      color: #FFFFFF;
-}
 
 h2 {
       color: #2D4638;

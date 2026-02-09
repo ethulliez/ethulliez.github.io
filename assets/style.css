@@ -5,17 +5,24 @@ body {
       line-height: 1.6;
       text-align: justify;
       background-color: #f5f5f5;
-      link-color: ;
     }
     
 .row {
-  display: flex;
+    display: flex;
+    column-count: 1;
 }
 
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (min-width: 80rem) {
+  .row {
+    display: flex;
+    column-count: 2;
+  }
 }
 
 

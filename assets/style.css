@@ -45,6 +45,7 @@ personal_pic {
     z-index: 2;
     position:absolute;
     float:left;
+    padding-top:20px;
   }
 
 header {

@@ -156,7 +156,7 @@ footer {
   header {
       background-color: #2D4638;
       color: #fcfcfc;
-      padding: 20px 5%;
+      padding: 10px 5%;
       text-align: right;
       position:normal;
       z-index: -1;
@@ -170,6 +170,7 @@ footer {
       text-align: center;
       position:sticky;
       position:webkit-sticky;
+      top: 60px;
     }
 
   #navbar {
@@ -177,16 +178,20 @@ footer {
       color: #fcfcfc;
       padding: 10px;
   }
+  
+  #name {
+      font-size: 40px;
+}
 
   #navname {
-      font-size: 60px;
+      font-size: 40px;
       color: #fcfcfc;
       font-family:ui-rounded;      
       position:sticky;
       position:webkit-sticky;
       background-color: #2D4638;
       text-align: center;
-      margin-top:300px;
+      margin-top:310px;
       z-index: 0;
       padding-left:0px;
       padding-right:0px;

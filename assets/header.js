@@ -1,4 +1,4 @@
-const head = `<p><i style="font-size: 20px">Chargée d'Enseignement Contractuelle</i>
+const head = `<p><i style="font-size: 18px">Chargée d'Enseignement Contractuelle</i>
   </br><i>AgroParisTech, Palaiseau, France</i></p>
   <p>
   </br> emma.thulliez@agroparistech.com <i class="fa-regular fa-envelope"></i>

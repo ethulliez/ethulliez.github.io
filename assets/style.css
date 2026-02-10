@@ -156,11 +156,11 @@ footer {
   header {
       background-color: #2D4638;
       color: #fcfcfc;
-      padding: 20px 60px;
+      padding: 20px 5%;
       text-align: right;
       position:normal;
       z-index: -1;
-      width:100% - 60px;
+      width:90%;
     }
   
   nav {

@@ -13,11 +13,11 @@ function languageFunction(){
 
 const navbar = `
     <div id="navbar">
-    <a href="index.html#situation">Situation</a>
-    <a href="publications.html">Publications</a>
-    <a href="talks.html">Talks</a>
-    <a href="enseignements.html">Enseignements</a>
-    <a href="data.html">Open Data</a>
+    <a href="index_en.html#situation">Situation</a>
+    <a href="publications_en.html">Publications</a>
+    <a href="talks_en.html">Talks</a>
+    <a href="enseignements_en.html">Teaching</a>
+    <a href="data_en.html">Open Data</a>
     <button value = "change_language" onclick="languageFunction();"><i class="fa-regular fa-language"></i></button>
     </div>`
   

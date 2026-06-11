@@ -8,7 +8,7 @@ const leftcol = `<div class="column left">
     mesures de concentrations précises, et d'autre part, de les employer afin
     d'améliorer la cartographie des polluants.</p>
     <h2>Contact</h2>
-    <p> <i class="fa-regular fa-envelope"></i> emma.thulliez@agroparistech.com</p>
+    <p> <i class="fa-regular fa-envelope"></i> emma.thulliez@agroparistech.fr</p>
     <p><i class="fa-brands fa-linkedin"></i> <a href="https://fr.linkedin.com/in/emma-thulliez" target="_blank">Emma Thulliez</a></p>
   </div>`
   

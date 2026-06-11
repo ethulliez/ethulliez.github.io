@@ -18,7 +18,7 @@ const navbar = `
     <a href="talks.html">Talks</a>
     <a href="enseignements.html">Enseignements</a>
     <a href="data.html">Open Data</a>
-    <button value = "change_language" onclick="languageFunction();"><i class="fa-regular fa-language"></i></button>
+    <button value = "change_language" onclick="languageFunction();"><i class="fa-solid fa-language"></i></button>
     </div>`
   
 document.getElementsByTagName("nav")[0].innerHTML = navbar

@@ -2,18 +2,22 @@ function languageFunction(){
   //console.log("Language:", document.documentElement.lang);
   if(document.documentElement.lang === "fr"){
     document.documentElement.lang = "en"
-    window.location.href = "index_en.html";
+    window.location.href = "https://ethulliez.github.io/en/index.html";
   } else {
     document.documentElement.lang = "fr"
-    window.location.href = "index.html";
+    window.location.href = "https://ethulliez.github.io/fr/index.html";
   }
   //console.log("Changed language to:", document.documentElement.lang);
 }
 
+function language_file(new_str){
+  str1 = document.documentElement.lang
+  return str1.concat("/", new_str)
+}
 
 const navbar = `
     <div id="navbar">
-    <a href="index.html#situation">Situation</a>
+    <a href="index.html">Situation</a>
     <a href="publications.html">Publications</a>
     <a href="talks.html">Talks</a>
     <a href="enseignements.html">Enseignements</a>

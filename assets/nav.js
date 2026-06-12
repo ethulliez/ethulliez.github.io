@@ -10,11 +10,6 @@ function languageFunction(){
   //console.log("Changed language to:", document.documentElement.lang);
 }
 
-function language_file(new_str){
-  str1 = document.documentElement.lang
-  return str1.concat("/", new_str)
-}
-
 const navbar = `
     <div id="navbar">
     <a href="fr/index.html">Situation</a>
